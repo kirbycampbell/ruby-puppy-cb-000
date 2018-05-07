@@ -16,7 +16,9 @@ attr_accessor :name
   end
 
   def self.all
-     puts @@all
-  end
+    @@all.each do |dog|
+       puts dog
+     end
+   end
 
 end
