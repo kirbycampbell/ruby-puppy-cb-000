@@ -15,7 +15,6 @@ attr_accessor :name
     @@all.each do |dog|
        puts dog.name
      end
-
    end
 
 end
