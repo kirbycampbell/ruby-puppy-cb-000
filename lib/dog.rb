@@ -19,6 +19,7 @@ attr_accessor :name
     @@all.each do |dog|
        puts dog
      end
+     @@all
    end
 
 end
