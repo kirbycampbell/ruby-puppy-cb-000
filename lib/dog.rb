@@ -16,7 +16,7 @@ attr_accessor :name
   end
 
   def self.all
-     @@all
+     puts @@all
   end
 
 end
