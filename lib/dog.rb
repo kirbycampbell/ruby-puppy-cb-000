@@ -7,10 +7,6 @@ attr_accessor :name
     @@all << self
   end
 
-  #def initialize
-  #  @@all << self
-  #end
-
   def self.clear_all
     @@all.clear
   end
@@ -19,7 +15,7 @@ attr_accessor :name
     @@all.each do |dog|
        puts dog
      end
-     @@all
+
    end
 
 end
